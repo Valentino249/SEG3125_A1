@@ -36,7 +36,14 @@ function Header() {
                         </div> 
                     </div>
                     <p className="mb-2 text-4xl font-bold text-bg-orange-50 mt-20 mb-10 gap-10 md:px-10">How I Work</p>
-                    <p className="text-2xl text-bg-orange-50 mb-5 gap-10 md:px-10">I got my start programming in high school by developing small video games in python. I improved my game development skills over the years by participating in Game Jams, which taught me to think critically under high pressure. At university, I have worked two internships as a full stack software developer. At my first internship, I worked on a small team of three developers on implementing cost-saving measures and increasing accessibility to CEED's Ruby on Rails website (makerepo.com). I approached each new project at this internship with a careful balance of patience and my learned abilities to work under time constraints. At my second internship with the National Research Council of Canada, I further developed my full stack software development skills by completing the development of a React webform. On this project, designing appealing, accessible front-facing pages was of the utmost importance, as that was what would encourage researchers to use our tool.</p>
+                    <p className="text-2xl text-bg-orange-50 mb-5 gap-10 md:px-10">I got my start programming in high school by developing small video games in python. 
+                        I improved my game development skills over the years by participating in Game Jams, which taught me to think critically under high pressure. 
+                        At university, I have worked two internships as a full stack software developer. 
+                        At my first internship, I worked on a small team of three developers on implementing cost-saving measures and increasing accessibility to CEED's Ruby on Rails website 
+                        (<a href="https://makerepo.com/" className="text-red-400" target="_blank" rel="noopener noreferrer">makerepo.com</a>). 
+                        I approached each new project at this internship with a careful balance of patience and my learned abilities to work under time constraints. 
+                        At my second internship with the National Research Council of Canada, I further developed my full stack software development skills by completing the development of a React webform. 
+                        On this project, designing appealing, accessible front-facing pages was of the utmost importance, as that was what would encourage researchers to use our tool.</p>
                 </div>
             </section>
             

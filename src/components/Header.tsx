@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import profile from '../assets/profile_photo_5.png'
 
 function Header() {

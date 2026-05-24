@@ -8,7 +8,7 @@ function Header() {
         <div>
             <section id="projects">
                 <div className="flex md:items-start justify-center min-h-screen flex-col p-5">
-                    <p className="mb-2 text-4xl font-bold text-bg-orange-50 mt-50 mb-10 gap-10 md:px-10">Game Development</p>
+                    <p className="mb-2 text-4xl font-bold text-bg-orange-50 mt-50 mb-10 gap-10 md:px-10">Video games, created with <span className="text-red-400">passion.</span></p>
                     <div className="grid md:grid-cols-4 grid-cols-1 items-center gap-10 md:px-10">
                         <div className="flex flex-col">
                             <a href="https://gold249.itch.io/gravity-jump" target="_blank" rel="noopener noreferrer">

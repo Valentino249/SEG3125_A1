@@ -3,7 +3,7 @@ import profile from '../assets/profile_photo_5.png'
 function Header() {
     return (
         <div>
-            <div className="flex h-screen items-center justify-center bg-orange-50 p-5">
+            <div className="flex min-h-screen justify-center bg-orange-50 p-5 pt-10">
                 <div className="grid md:grid-cols-2 grid-cols-1 items-center gap-10 md:px-10">
                 <div>
                     <h1 className="mb-2 text-3xl font-bold text-gray-900"><span className="text-red-400">Hi,</span> I'm Valentino Vinod</h1>

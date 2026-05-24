@@ -1,6 +1,7 @@
 import gravityJump from '../assets/gravity_jump.png'
 import rotr from '../assets/rotr.png'
 import whatsAbove from '../assets/whats_above.png'
+import bg from '../assets/background_1.png'
 
 function Header() {
     return (
@@ -9,20 +10,27 @@ function Header() {
                 <p className="mb-2 text-4xl font-bold text-bg-orange-50 mt-50 mb-10 gap-10 md:px-10">Game Development</p>
                 <div className="grid md:grid-cols-4 grid-cols-1 items-center gap-10 md:px-10">
                     <div className="flex flex-col">
-                        <img src={gravityJump} alt="Profile Photo" className="md:size-96 size-72 object-cover hover:scale-105 transition duration-300" />
+                        <a href="https://gold249.itch.io/gravity-jump" target="_blank" rel="noopener noreferrer">
+                            <img src={gravityJump} alt="Profile Photo" className="md:size-96 size-72 object-cover hover:scale-105 transition duration-300" />
+                        </a>
                         <p className="mt-5 font-bold text-2xl">Gravity Jump</p>
                     </div>
                     
                     <div className="flex flex-col">
+                        <a href="https://gold249.itch.io/roll-of-the-wreck" target="_blank" rel="noopener noreferrer">
+
                         <img src={rotr} alt="Profile Photo" className="md:size-96 size-72 object-cover hover:scale-105 transition duration-300" />
+                        </a>
                         <p className="mt-5 font-bold text-2xl">Roll of The Wreck</p>
                     </div>
                     <div className="flex flex-col">
-                        <img src={whatsAbove} alt="Profile Photo" className="md:size-96 size-72 object-cover hover:scale-105 transition duration-300" />
+                        <a href="https://gold249.itch.io/whats-above" target="_blank" rel="noopener noreferrer">
+                            <img src={whatsAbove} alt="Profile Photo" className="md:size-96 size-72 object-cover hover:scale-105 transition duration-300" />
+                        </a>
                         <p className="mt-5 font-bold text-2xl">What's Above</p>
                     </div>
                     <div className="flex flex-col">
-                        <img src={gravityJump} alt="Profile Photo" className="md:size-96 size-72 object-cover hover:scale-105 transition duration-300" />
+                        <img src={bg} alt="Profile Photo" className="md:size-96 size-72 object-cover" />
                         <p className="mt-5 font-bold text-2xl">Coming soon...</p>
                     </div> 
                 </div>

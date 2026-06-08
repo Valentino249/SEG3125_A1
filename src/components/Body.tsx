@@ -1,7 +1,6 @@
 import gravityJump from '../assets/gravity_jump.png'
 import rotr from '../assets/rotr.png'
 import whatsAbove from '../assets/whats_above.png'
-import bg from '../assets/background_1.png'
 import Todo from '../assets/Todo_6.png'
 
 function Header() {

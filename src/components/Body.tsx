@@ -2,6 +2,7 @@ import gravityJump from '../assets/gravity_jump.png'
 import rotr from '../assets/rotr.png'
 import whatsAbove from '../assets/whats_above.png'
 import bg from '../assets/background_1.png'
+import Todo from '../assets/Todo_6.png'
 
 function Header() {
     return (
@@ -31,8 +32,10 @@ function Header() {
                             <p className="mt-5 font-bold text-2xl">What's Above</p>
                         </div>
                         <div className="flex flex-col">
-                            <img src={bg} alt="Profile Photo" className="md:size-96 size-72 object-cover" />
-                            <p className="mt-5 font-bold text-2xl">Coming soon...</p>
+                            <a href="https://seg-3125-a2-green.vercel.app/" target="_blank" rel="noopener noreferrer">
+                                <img src={Todo} alt="Freelance Site" className="md:size-96 size-72 object-cover hover:scale-105 transition duration-300" />
+                                <p className="mt-5 font-bold text-2xl">Freelance Concept Art Site</p>
+                            </a>
                         </div> 
                     </div>
                     <p className="mb-2 text-4xl font-bold text-bg-orange-50 mt-20 mb-10 gap-10 md:px-10">How I Work</p>

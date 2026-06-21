@@ -1,14 +1,14 @@
 import gravityJump from '../assets/gravity_jump.png'
 import rotr from '../assets/rotr.png'
-import whatsAbove from '../assets/whats_above.png'
 import Todo from '../assets/Todo_6.png'
+import matching from "../assets/matching.png"
 
 function Header() {
     return (
         <div>
             <section id="projects">
                 <div className="flex md:items-start justify-center min-h-screen flex-col p-5">
-                    <p className="mb-2 text-4xl font-bold text-bg-orange-50 mt-50 mb-10 gap-10 md:px-10">Video games, created with <span className="text-red-400">passion.</span></p>
+                    <p className="mb-2 text-4xl font-bold text-bg-orange-50 mt-50 mb-10 gap-10 md:px-10">See my <span className="text-red-400">projects</span></p>
                     <div className="grid md:grid-cols-4 grid-cols-1 items-center gap-10 md:px-10">
                         <div className="flex flex-col">
                             <a href="https://gold249.itch.io/gravity-jump" target="_blank" rel="noopener noreferrer">
@@ -25,10 +25,10 @@ function Header() {
                             <p className="mt-5 font-bold text-2xl">Roll of The Wreck</p>
                         </div>
                         <div className="flex flex-col">
-                            <a href="https://gold249.itch.io/whats-above" target="_blank" rel="noopener noreferrer">
-                                <img src={whatsAbove} alt="Profile Photo" className="md:size-96 size-72 object-cover hover:scale-105 transition duration-300" />
+                            <a href="https://seg-3125-a3-tau.vercel.app/" target="_blank" rel="noopener noreferrer">
+                                <img src={matching} alt="Profile Photo" className="md:size-96 size-72 object-cover hover:scale-105 transition duration-300" />
                             </a>
-                            <p className="mt-5 font-bold text-2xl">What's Above</p>
+                            <p className="mt-5 font-bold text-2xl">Matching Market</p>
                         </div>
                         <div className="flex flex-col">
                             <a href="https://seg-3125-a2-green.vercel.app/" target="_blank" rel="noopener noreferrer">

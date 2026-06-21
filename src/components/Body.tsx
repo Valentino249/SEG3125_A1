@@ -1,7 +1,7 @@
 import gravityJump from '../assets/gravity_jump.png'
 import rotr from '../assets/rotr.png'
 import Todo from '../assets/Todo_6.png'
-import matching from "../assets/matching.png"
+import matching from "../assets/matching-2.png"
 
 function Header() {
     return (
